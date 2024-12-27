@@ -1,11 +1,17 @@
-import NetflixSeires from "./components/NetflixSeires";
+import { EventHandling } from "./components/EventHandling";
+//import NetflixSeires from "./components/NetflixSeires";
 
 export const App = () => {
+ 
   return (
-    <> 
-      <NetflixSeires />
-    </>
+    <section>
+      {/*<NetflixSeires />;*/}
+    <EventHandling />
+    </section>
+    
   );
+     
+ 
 };
 
 
